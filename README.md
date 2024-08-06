@@ -1,18 +1,18 @@
 ### Python Project:
 # Video Streaming Services
 
-Project ini merupakan final project dari course **Basic Python Programming** Pacmann. Pada project ini, saya diminta untuk membuat suatu program sederhana untuk platform video streaming, PacFlix. Terdapat 3 plan pada PacFlix, yaitu Basic Plan, Standard Plan dan Premium Plan. Setiap plan memiliki benefit dan harga yang berbeda-beda seperti di bawah ini:
+This project is the final project of Pacmann's **Basic Python Programming** course. In this project I was asked to create a simple program for the video streaming platform PacFlix. There are 3 plans in PacFlix, namely Basic Plan, Standard Plan and Premium Plan. Each plan has different benefits and prices as shown below:
 
 ![Screenshot 2024-04-01 075352](https://github.com/febbyngrni/video-streaming-services/assets/152588325/22945abd-0666-4ef5-bafa-84535bbb9083)
 
 ## Objective
-Membuat fitur dimana user dapat melakukan:
-1. Mengecek semua plan yang tersedia di PacFlix
-2. Mengecek plan yang sedang digunakan oleh **existing user**
-3. **Current user**: Dapat upgrade plan dari current plan, jika **duration plan > 12 bulan** akan mendapatkan diskon
-4. **New user**: Dapat subscribe dan mendapatkan diskon, jika menggunakan **kode referral**
+Create a feature where users can do the following
+1. Review all plans available in PacFlix
+2. Check the plans used by **existing users**.
+3. **Current user**: Can upgrade plan from current plan if **plan duration > 12 months** will get a discount
+4. **New user**: Can sign up and get a discount if you use **referral code**.
 
 ## Discount
-Terdapat 2 ketentuan untuk mendapatkan diskon untuk current user maupun new user:
-1. Jika user yang memiliki duration plan > 12 bulan dan ingin upgrade plan maka akan mendapatkan diskon sebesar 5%.
-2. Jika user baru yang ingin berlangganan memiliki kode referral dan cocok dengan data yang ada di database, maka pembayaran akan valid dan mendapatkan diskon sebesar 4%.
+There are 2 conditions to get a discount for current users and new users:
+1. Users who have a duration plan > 12 months and want to upgrade the plan will get a 5% discount.
+2. If a new user who wants to subscribe has a referral code and matches the data in the database, the payment will be valid and will get a 4% discount.
